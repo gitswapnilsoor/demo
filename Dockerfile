@@ -1,6 +1,9 @@
 #Use an existing base image
-FROM alpine
-#Run dependencies
+FROM node:alpine
 
+WORKDIR /usr/app
+#Run dependencies
+RUN npm install
+COPY ./ ./
 # CMD -Startup command when container starts
-CMD ["echo" , "Hello Swapnil"]
+CMD ["npm" , "start"]
