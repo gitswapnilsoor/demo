@@ -1,3 +1,4 @@
 Testing the Rules 
 Modifying this file directly in master branch/mainline
 Satish adding a line
+Using this file now in Master itself.
